@@ -1,7 +1,7 @@
 # Unzip data files to working directory. Creates folder "UCI HAR Dataet.
 
 # Install required packages
-# test edit
+# test
 if (!require("data.table")) {install.packages("data.table")
 require("data.table")}
 
