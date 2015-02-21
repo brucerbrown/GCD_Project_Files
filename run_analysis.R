@@ -71,6 +71,3 @@ data = dcast(data , Subject + labels ~ variable, mean)
 
 write.table(data, file="MeanCombinedData.txt",row.name=FALSE)
 
-# Print new data
-
-data
