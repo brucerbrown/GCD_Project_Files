@@ -8,6 +8,8 @@ The variables contained in the original data set were collected from 30 voluntee
     Standing: coded as STANDING
     Laying: coded as LAYING
 Using the smartphone's embedded accelerometer and gyroscope, the team captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data, and 30% were used for the test data.
+
+
 File Overview:
 
 The dataset includes the following files:
@@ -29,6 +31,7 @@ Train data files are described below. Equivalent Test data files having same pro
     train/Inertial Signals/body_gyro_x_train.txt: The angular velocity vector measured by the gyroscope for each window sample; The units are radians/second
 
 Feature Overview:
+    
     t: Time domain
     f: Frequency domain
     mean: Average for the preceeding descriptors in the names.
