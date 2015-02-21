@@ -1,3 +1,5 @@
+CODEBOOK
+
 Variables Overview
 
 The variables contained in the original data set were collected from 30 volunteers ranging in age from 19-48. Each person performed the following six activities wearing a smartphone (Galaxy S II) on their waist:
