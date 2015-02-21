@@ -60,7 +60,7 @@ data <- cbind(SUBJECTS, labels, X)
 
 # Write data as .txt file
 
-write.table(data, file="CombinedData.txt",row.name=FALSE )
+write.table(data, file="CombinedData.txt",row.name=FALSE)
 
 # Calculate mean of varibles by subject
 
