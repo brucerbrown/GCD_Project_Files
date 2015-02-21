@@ -25,7 +25,6 @@ The dataset includes the following files:
     test/y_test.txt: Test labels
 
 Train data files are described below.
-
     train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample; Its     range is from 1 to 30
     train/Inertial Signals/total_acc_x_train.txt: The acceleration signal from the smartphone accelerometer X axis     in standard gravity units 'g'
     train/Inertial Signals/total_acc_y_train.txt: The acceleration signal from the smartphone accelerometer Y axis     in standard gravity units 'g
