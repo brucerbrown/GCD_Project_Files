@@ -1,6 +1,7 @@
 Variables Overview
 
 The variables contained in the original data set were collected from 30 volunteers ranging in age from 19-48. Each person performed the following six activities wearing a smartphone (Galaxy S II) on their waist:
+    
     Walking: coded as WALKING
     Walking Upstairs: coded as WALKING_UPSTAIRS
     Walking Downstairs: coded as WALKING_DOWNSTAIRS
@@ -12,6 +13,7 @@ Using the smartphone's embedded accelerometer and gyroscope, the team captured 3
 File Overview:
 
 The dataset includes the following files:
+    
     README.txt: study information and license documentation
     features_info.txt: Shows information about the variables used on the feature vector
     features.txt: List of all features
@@ -22,6 +24,7 @@ The dataset includes the following files:
     test/y_test.txt: Test labels
 
 Train data files are described below. Equivalent Test data files having same properties are included in the data set.
+    
     train/subject_train.txt: Each row identifies the subject who performed the activity for each 
     window sample; Its range is from 1 to 30
     
@@ -41,6 +44,7 @@ Train data files are described below. Equivalent Test data files having same pro
     by the gyroscope for each window sample; The units are radians/second
 
 Features Overview:
+    
     t: Time domain
     f: Frequency domain
     mean: Average for the preceeding descriptors in the names.
