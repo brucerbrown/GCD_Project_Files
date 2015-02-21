@@ -1,19 +1,16 @@
 Variable Overview
 
 The variables contained in the original data set were collected from 30 volunteers ranging in age from 19-48. Each person performed the following six activities wearing a smartphone (Galaxy S II) on their waist:
-
     Walking: coded as WALKING
     Walking Upstairs: coded as WALKING_UPSTAIRS
     Walking Downstairs: coded as WALKING_DOWNSTAIRS
     Sitting: coded as SITTING
     Standing: coded as STANDING
     Laying: coded as LAYING
-
 Using the smartphone's embedded accelerometer and gyroscope, the team captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data, and 30% were used for the test data.
 File Overview:
 
 The dataset includes the following files:
-
     README.txt: study information and license documentation
     features_info.txt: Shows information about the variables used on the feature vector
     features.txt: List of all features
@@ -24,7 +21,6 @@ The dataset includes the following files:
     test/y_test.txt: Test labels
 
 Train data files are described below. Equivalent Test data files having same properties are included in the data set.
-
     train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample; Its range is from 1 to 30
     train/Inertial Signals/total_acc_x_train.txt: The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'
     train/Inertial Signals/total_acc_y_train.txt: The acceleration signal from the smartphone accelerometer Y axis in standard gravity units 'g
@@ -33,7 +29,6 @@ Train data files are described below. Equivalent Test data files having same pro
     train/Inertial Signals/body_gyro_x_train.txt: The angular velocity vector measured by the gyroscope for each window sample; The units are radians/second
 
 Feature Overview:
-
     t: Time domain
     f: Frequency domain
     mean: Average for the preceeding descriptors in the names.
@@ -53,14 +48,6 @@ Feature Overview:
 
 Cleaning and Normalizing Data
 
-The script 'run_analysis.R' transforms the original data into a summary data set of mean by subject and activity. The steps to complete this process are performed as follows:
-
-    Read data from raw text files into data frames (data assumed to be downloaded prior to script execution)
-    Merge test and train subject data.
-    Merge test and train y data. Merge resulting y data with activity labels.
-    Merge test and train x data. Apply feature data as feature names.
-    Combine merged subject, x and y data (results from 2,3,4)
-    Subset to only mean & stdv features
-    Compute means grouped by subject and activity
-    Write results to the FinalData.txt file
+The script 'run_analysis.R' transforms the original data into a summary data set of mean by subject and activity.
+See README.md for a complete description of tne functionality of run_analysis.R
 
