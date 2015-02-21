@@ -7,6 +7,8 @@ The variables contained in the original data set were collected from 30 voluntee
     Sitting: coded as SITTING
     Standing: coded as STANDING
     Laying: coded as LAYING
+    
+    
 Using the smartphone's embedded accelerometer and gyroscope, the team captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data, and 30% were used for the test data.
 
 
