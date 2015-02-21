@@ -10,7 +10,7 @@ This project creates one R script, run_analysis.R, which performs the following 
 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Once executed, the resulting dataset maybe found at MeanCombinedData.txt
+Once executed, the resulting dataset is produced as MeanCombinedData.txt.
 
 To accomplish these steps, run_analysis.R must do the following:
 
