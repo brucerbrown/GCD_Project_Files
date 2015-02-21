@@ -1,12 +1,11 @@
-# Unzip data files to working directory. Creates folder "UCI HAR Dataet.
+# Unzip data files at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+# to R working directory. Creates the folder "UCI HAR Dataet.
 
-# Install required packages
-# test
+# Install required packages "data.table" and "reshape2"
 if (!require("data.table")) {install.packages("data.table")
 require("data.table")}
 
 if (!require("reshape2")) {install.packages("reshape2")
-
 require("reshape2")}
 
 # Load subject datasets
@@ -52,24 +51,26 @@ activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 labels <- merge(Y, activity_labels, by=1)[,2]
 
 # Subset X by mean and std
+
 X <- X[,grepl("mean|std", feature_names)]
 
-# Combine the 3 datasets
+# Combine datasets
 
 data <- cbind(SUBJECTS, labels, X)
-# Express data in tabular form as .txt file
+
+# Write data as .txt file
 
 write.table(data, file="CombinedData.txt",row.name=FALSE )
 
-# Calculate mean of all varibles by subject
+# Calculate mean of varibles by subject
 
 data = melt(data, id.var = c("Subject", "labels"))
 data = dcast(data , Subject + labels ~ variable, mean)
 
-# Save new data as .txt file
+# Write new data as .txt file
 
 write.table(data, file="MeanCombinedData.txt",row.name=FALSE)
 
-# Print the new data
+# Print new data
 
 data
