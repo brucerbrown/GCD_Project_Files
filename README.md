@@ -30,5 +30,5 @@ To accomplish these steps, run_analysis.R must do the following:
 14. Calciulate mean of variables by subject.
 15. Write new data as .txt file (MeanCombinedData.txt").
 
-
+Each of these steps is commented within the run_analysis.R code.
 
