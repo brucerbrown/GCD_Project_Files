@@ -25,8 +25,8 @@ The dataset includes the following files:
 
 Train data files are described below. Equivalent Test data files having same properties are included in the data set.
 
-    train/subject_train.txt: Each row identifies the subject who performed the activity for each window sample;
-    Its range is from 1 to 30
+    train/subject_train.txt: Each row identifies the subject who performed the activity for each 
+    window sample; Its range is from 1 to 30
     
     train/Inertial Signals/total_acc_x_train.txt: The acceleration signal from the 
     smartphone accelerometer X axis in standard gravity units 'g'
