@@ -67,5 +67,5 @@ Features Overview:
 Cleaning and Normalizing Data
 
 The script 'run_analysis.R' transforms the original data into a summary data set of mean by subject and activity.
-See README.md for a complete description of tne functionality of run_analysis.R
+See README.md for a complete description of the functionality of run_analysis.R
 
