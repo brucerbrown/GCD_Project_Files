@@ -2,7 +2,7 @@
 
 Variables Overview
 
-The variables contained in the original data set were collected from 30 volunteers ranging in age from 19-48. Each person performed the following six activities wearing a smartphone (Galaxy S II) on their waist:
+The variables contained in the original dataset were collected from 30 volunteers ranging in age from 19-48. Each person performed the following six activities wearing a smartphone (Galaxy S II) on their waist:
     
     Walking: coded as WALKING
     Walking Upstairs: coded as WALKING_UPSTAIRS
@@ -68,9 +68,9 @@ Features Overview:
 
 Cleaning and Normalizing Data
 
-The script 'run_analysis.R' transforms the original data into a summary dataset of mean by subject and activity.
+The script 'run_analysis.R' transforms the original data into a summary dataset of means by subject and activity.
 See README.md for a complete description of the functionality of run_analysis.R
 
-Reference on the dataset:
+Reference on the Dataset:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
