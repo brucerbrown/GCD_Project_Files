@@ -68,6 +68,9 @@ Features Overview:
 
 Cleaning and Normalizing Data
 
-The script 'run_analysis.R' transforms the original data into a summary data set of mean by subject and activity.
+The script 'run_analysis.R' transforms the original data into a summary dataset of mean by subject and activity.
 See README.md for a complete description of the functionality of run_analysis.R
 
+Reference on the dataset:
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
